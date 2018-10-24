@@ -1,5 +1,5 @@
 #install java 
-classssss java::install {
+class java::install {
 
 package {'java':
 
