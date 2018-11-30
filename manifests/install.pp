@@ -1,9 +1,5 @@
 #install java 
-class java::install (
-if($facts['role'] == 'rhel6::base'
-require motd
-
-) {
+class java::install {
 
 package {'java':
 
